@@ -131,10 +131,6 @@ class _cartPageState extends State<cartPage> {
                     SizedBox(
                       height: 15,
                     ),
-                    Text(
-                      "Lorem ipsum dolar sits amet is used in print industry",
-                      style: TextStyle(color: Colors.white, fontSize: 12),
-                    )
                   ],
                 ),
               ),
@@ -149,7 +145,7 @@ class _cartPageState extends State<cartPage> {
                       crossAxisAlignment: CrossAxisAlignment.end,
                       children: [
                         Text(
-                          "Your Cart",
+                          "Keranjangmu",
                           style: TextStyle(
                               fontSize: 22, fontWeight: FontWeight.w700),
                         ),
@@ -283,7 +279,7 @@ class _cartPageState extends State<cartPage> {
                       height: 25,
                     ),
                     Text(
-                      "Have a Promo Code?",
+                      "Punya Kode Promo?",
                       style: TextStyle(color: blue),
                     ),
                     SizedBox(
@@ -299,7 +295,7 @@ class _cartPageState extends State<cartPage> {
                           color: greenBtn,
                         ),
                         child: Text(
-                          "Check Out",
+                          "Bayar",
                           style: TextStyle(
                               color: Colors.white, fontWeight: FontWeight.w700),
                         ),
@@ -362,10 +358,6 @@ class _cartPageState extends State<cartPage> {
                   ),
                 ],
               ),
-              Text(
-                "Lorem ipsum sits dolar amet is for publishing",
-                style: TextStyle(fontSize: 12),
-              )
             ],
           ),
         ),
@@ -375,7 +367,7 @@ class _cartPageState extends State<cartPage> {
         Row(
           children: [
             Text(
-              "Quantity ",
+              "Jumlah ",
               style: TextStyle(fontSize: 14, color: black),
             ),
             Container(

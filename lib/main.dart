@@ -120,10 +120,6 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                 ],
               ),
-              Text(
-                "Lorem ipsum sits dolar amet is for publishing",
-                style: TextStyle(fontSize: 12),
-              )
             ],
           ),
         ),

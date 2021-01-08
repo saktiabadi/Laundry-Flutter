@@ -132,10 +132,6 @@ class _hotelPageState extends State<hotelPage> {
                         SizedBox(
                           height: 15,
                         ),
-                        Text(
-                          "Lorem ipsum dolar sits amet is used in print industry",
-                          style: TextStyle(color: Colors.white, fontSize: 12),
-                        )
                       ],
                     ),
                   ),
@@ -150,7 +146,7 @@ class _hotelPageState extends State<hotelPage> {
                           crossAxisAlignment: CrossAxisAlignment.end,
                           children: [
                             Text(
-                              "Today's Special",
+                              "Promo",
                               style: TextStyle(
                                   fontSize: 22, fontWeight: FontWeight.w700),
                             ),
@@ -177,7 +173,7 @@ class _hotelPageState extends State<hotelPage> {
                           crossAxisAlignment: CrossAxisAlignment.end,
                           children: [
                             Text(
-                              "Dishes",
+                              "Cucian",
                               style: TextStyle(
                                   fontSize: 22, fontWeight: FontWeight.w700),
                             ),
@@ -243,7 +239,7 @@ class _hotelPageState extends State<hotelPage> {
                                   size: 18,
                                 ),
                                 Text(
-                                  " CART",
+                                  " Keranjang",
                                   style: TextStyle(
                                       color: Colors.white,
                                       fontSize: 13,
@@ -311,7 +307,7 @@ class _hotelPageState extends State<hotelPage> {
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.all(Radius.circular(30)),
                     border: Border.all(color: black)),
-                child: Text("+ Cart"),
+                child: Text("+ Keranjang"),
               )
             ],
           )
@@ -367,10 +363,6 @@ class _hotelPageState extends State<hotelPage> {
                   ),
                 ],
               ),
-              Text(
-                "Lorem ipsum sits dolar amet is for publishing",
-                style: TextStyle(fontSize: 12),
-              )
             ],
           ),
         ),
@@ -382,7 +374,7 @@ class _hotelPageState extends State<hotelPage> {
                 borderRadius: BorderRadius.all(Radius.circular(40)),
                 color: greenBtn),
             child: Text(
-              "Order Now",
+              "Pesan Sekarang",
               style: TextStyle(
                   color: Colors.white,
                   fontSize: 12,
